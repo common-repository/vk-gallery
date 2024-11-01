@@ -1,0 +1,141 @@
+#vkg-wrapper {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.vkg-clear {
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.vkg-warning {
+	color: #f03;
+}
+
+.vkg-onethird-column {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+.vkg-twothird-column {
+	width: 58%;
+	margin: 0;
+	float: left;
+}
+
+/* Tabs */
+#vkg-tabs {
+	width: 700px;
+	height: 33px;
+	background: url(../images/admin/tabs.png) no-repeat;
+}
+.no-js #vkg-tabs {
+	width: 700px;
+	height: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #DFDFDF;
+}
+#vkg-tabs a {
+	display: block;
+	float: left;
+	height: 33px;
+	padding: 0 0 0 10px;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+	color: #333;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+}
+#vkg-tabs span {
+	display: block;
+	height: 33px;
+	line-height: 39px;
+	padding: 0 10px 0 0;
+	text-decoration: none;
+	color: #333;
+}
+#vkg-tabs a:hover,
+#vkg-tabs .vkg-current {
+	background: url(../images/admin/tab.png) no-repeat;
+}
+#vkg-tabs a:hover span,
+#vkg-tabs .vkg-current span {
+	line-height: 34px;
+	background: 100% 100% url(../images/admin/tab.png) no-repeat;
+}
+
+.vkg-pane {
+	position: relative;
+	display: none;
+	width: 668px;
+	background: #fff;
+	padding: 15px;
+	border-right: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+}
+
+.no-js .vkg-pane {
+	display: block;
+}
+
+/* Messages (notifications) */
+.vkg-message {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	display: none;
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.vkg-message a,
+.vkg-message a:hover,
+.vkg-message a:active,
+.vkg-message a:visited {
+	color: #000;
+}
+.vkg-message-loading {
+	background: #ff9;
+	color: #000;
+	border: 1px solid #C2C23E;
+}
+.vkg-message-success {
+	background: #8EF59C;
+	color: #000;
+	border: 1px solid #66B070;
+}
+.vkg-message-error {
+	background: #FF4D70;
+	color: #000;
+	border: 1px solid #9E0020;
+}
+.no-js .vkg-message-error {
+	display: block;
+}
+
+/* Save button */
+.vkg-submit {
+	float: left;
+}
+.vkg-spin {
+	padding: 4px 0 0 10px;
+	float: left;
+	display: none;
+}
+
+/* Forms */
+#vkg-wrapper h3.title {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+#vkg-wrapper h4 {
+	margin-bottom: 0;
+}
+#vkg-wrapper select {
+	width: 200px;
+}

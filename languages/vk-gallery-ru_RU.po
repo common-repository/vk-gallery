@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-insert-post\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-04 20:30+0300\n"
+"PO-Revision-Date: 2011-07-04 20:31+0300\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: gn_themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/admin.php:7
+#: lib/admin.php:33
+msgid "VK Gallery"
+msgstr "ВК Галерея"
+
+#: lib/admin.php:39
+msgid "About"
+msgstr "О плагине"
+
+#: lib/admin.php:40
+msgid "Settings"
+msgstr "Настройки"
+
+#: lib/admin.php:41
+msgid "How to use"
+msgstr "Как использовать"
+
+#: lib/admin.php:44
+msgid "For full functionality of this page it is recommended to enable JavaScript."
+msgstr "Для полной функциональности этой страницы рекомендуется включить JavaScript."
+
+#: lib/admin.php:44
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: lib/admin.php:46
+msgid "FREE Support"
+msgstr "БЕСПЛАТНАЯ поддержка"
+
+#: lib/admin.php:47
+msgid "Support forum"
+msgstr "Форум поддержки"
+
+#: lib/admin.php:48
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: lib/admin.php:49
+msgid "Bug report"
+msgstr "Сообщить об ошибке"
+
+#: lib/admin.php:53
+msgid "Do you love this plugin?"
+msgstr "Вам нравится этот плагин?"
+
+#: lib/admin.php:54
+msgid "Buy author a beer"
+msgstr "Купите автору пива"
+
+#: lib/admin.php:54
+msgid "Donate"
+msgstr "Поддержать"
+
+#: lib/admin.php:55
+msgid "Rate this plugin at wordpress.org"
+msgstr "Оцените плагин на WordPress.org"
+
+#: lib/admin.php:55
+msgid "5 stars"
+msgstr "5 звезд"
+
+#: lib/admin.php:56
+msgid "Review this plugin in your blog"
+msgstr "Сделайте обзор плагина в своем блоге"
+
+#: lib/admin.php:64
+msgid "Vkontakte app_id"
+msgstr "ID приложения Вконтакте"
+
+#: lib/admin.php:66
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: lib/admin.php:73
+msgid "Go to"
+msgstr "Постите страницу "
+
+#: lib/admin.php:74
+msgid "Create application and copy their app_ID"
+msgstr "Создайте приложение и скопируйте его APP ID"
+
+#: lib/admin.php:75
+msgid "Enter your app_id on settings tab and click \"Save settings\" button"
+msgstr "Введите ваш APP ID на вкладке \"Настройки\" и нажмите \"Сохранить настройки\""
+
+#: lib/admin.php:76
+msgid "Create post or page and paste this shortcode"
+msgstr "Создайте запись или страницу и вставьте в редактор этот шорткод"
+
+#: lib/admin.php:77
+msgid "You can use this shortcode with next parameters"
+msgstr "Вы можете использовать этот шорткод со следующими параметрами"
+
+#: lib/functions.php:31
+msgid "Vladimir Anokhin"
+msgstr "Владимир Анохин"
+
+#: lib/functions.php:32
+msgid "Gallery with VK comments"
+msgstr "Галерея с комментариями вконтакте"
+
+#: lib/shortcode.php:51
+msgid "VK Gallery: images not found! Upload images via buttons above the visual editor."
+msgstr "ВК Галерея: изображения не найдены! Загрузите изображения с помощью кнопок над визуальным редактором \"Загрузить/Вставить\"."
+
